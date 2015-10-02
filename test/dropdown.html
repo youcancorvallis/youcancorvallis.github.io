@@ -5,13 +5,17 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script src="/js/dropit.js"></script>
   <!--<link rel="stylesheet" href="/css/dropit.css" type="text/css" />-->
+  <style>
+    .menu {display:inline;}
+    .submenu {display:block;}
+  </style>
 </head>
 
 <body>
   <ul class="menu">
-    <li>
-      <a href="#">Dropdown</a>
-      <ul>
+    <li><a href="#">regular</a></li>
+    <li><a href="#">dropdown</a>
+      <ul class='submenu'>
         <li><a href="#">Some Action 1</a></li>
         <li><a href="#">Some Action 2</a></li>
         <li><a href="#">Some Action 3</a></li>
