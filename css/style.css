@@ -169,6 +169,7 @@ ul#nav li.current a, ul#nav li:hover a
   z-index:-1;
   opacity:0;
   transition:opacity linear 0.15s;
+  display:block;
 }
 
 nav li:hover .sub-menu {
