@@ -13,11 +13,7 @@
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/dropit.js"></script>
-  <script>
-    $(document).ready(function() {
-        $('.menu').dropit();
-    });
-  </script>
+  
   
   <style>
 .menu ul { display: none; } /* Hide before plugin loads */
@@ -81,16 +77,15 @@ a { text-decoration: none; }
       </div><!--close menubar-->	
     </nav>	
     <ul class="menu">
-    <li>
-        <a href="#" class="btn">Class &#9658;</a>
+      <li><a href="#" class="btn">Class &#9658;</a>
         <ul>
             <li><a href="#">Class 1</a></li>
             <li><a href="#">Class 2</a></li>
             <li><a href="#">Class 3</a></li>
             <li><a href="#">Class 4</a></li>
         </ul>
-    </li>
-</ul>
+      </li>
+    </ul><!--close test menu-->
 	<div id="site_content">	
 
       <div class="slideshow">
@@ -146,5 +141,10 @@ a { text-decoration: none; }
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/image_slide.js"></script>
   
+  <script>
+    $(document).ready(function() {
+        $('.menu').dropit({action:'mouseenter'});
+    });
+  </script>
 </body>
 </html>
