@@ -178,7 +178,7 @@ ul#nav li.current a, ul#nav li:hover a
   background:#2e2728;
 }
 
-nav li:hover .sub-menu {
+ul#nav li:hover .sub-menu {
   z-index:1;
   opacity:1;
 }
