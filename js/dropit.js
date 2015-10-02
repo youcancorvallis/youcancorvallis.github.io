@@ -1,3 +1,3 @@
 $(document).ready(function() {
-    $('.menu').dropit();
+    $('.menubar').dropit();
 });
