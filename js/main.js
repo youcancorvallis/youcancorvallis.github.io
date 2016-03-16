@@ -49,14 +49,16 @@ jQuery(document).ready(function($){
 
 // custom google map settings
 jQuery(document).ready(function($){
-	//set your google maps parameters
-	var latitude = 38.710202,
-		longitude = -9.142238,
+	//set your google maps parameters, 
+	var latitude = 44.562652,
+		longitude = -123.260074,
 		map_zoom = 16;
 
 	//google map custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
-	var marker_url = ( is_internetExplorer11 ) ? 'http://static.tumblr.com/1ccbc9v/cvXncd6ge/cd-icon-location.png' : 'http://static.tumblr.com/1ccbc9v/JWhncd6gz/cd-icon-location.svg';
+	var marker_url = ( is_internetExplorer11 ) ? 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/128/Map-Marker-Bubble-Azure.png' : 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/128/Map-Marker-Bubble-Azure.png';
+    var myicon = {url: 'https://cdn1.iconfinder.com/data/icons/Map-Markers-Icons-Demo-PNG/128/Map-Marker-Bubble-Azure.png', 
+                 scaledSize: new google.maps.Size(80,80)};
 		
 	//define the basic color of your map, plus a value for saturation and brightness
 	var	main_color = '#2d313f',
@@ -92,7 +94,7 @@ jQuery(document).ready(function($){
 			featureType: "road.local", 
 			elementType: "labels.icon", 
 			stylers: [
-				{visibility: "off"} 
+				{visibility: "on"} 
 			] 
 		},
 		{ 
@@ -108,7 +110,7 @@ jQuery(document).ready(function($){
 			featureType: "road",
 			elementType: "geometry.stroke",
 			stylers: [
-				{visibility: "off"}
+				{visibility: "on"}
 			]
 		}, 
 		//style different elements on the map
@@ -253,7 +255,7 @@ jQuery(document).ready(function($){
 	  	position: new google.maps.LatLng(latitude, longitude),
 	    map: map,
 	    visible: true,
-	 	icon: marker_url,
+	 	icon: myicon,
 	});
 
 	//add custom buttons for the zoom-in/zoom-out on the map
