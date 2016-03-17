@@ -3,6 +3,10 @@
 Primary style
 
 -------------------------------- */
+:root {
+    --hover-link-color: rgb(100,175,55);
+}
+
 ::-moz-selection { /* Code for Firefox */
     color: red;
     background: yellow;
@@ -22,7 +26,7 @@ Primary style
 body {
   font-size: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: rgba(2, 23, 37, 0.7);
   background-color: white;
 }
@@ -32,7 +36,13 @@ body.overflow-hidden {
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
+    color: darkviolet;
+}
+
+a:hover {
+    color: var(--hover-link-color);
+    font-weight: bold;
 }
 
 i {
@@ -352,7 +362,7 @@ html, body {
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
-  color: rgb(212,175,55);
+  color: var(--hover-link-color);
 }
 .no-touch .cd-primary-nav a:hover {
   font-weight: 400;
@@ -424,7 +434,7 @@ html, body {
 	  -webkit-transition: background 0.2s;
 	  -moz-transition: background 0.2s;
 	  transition: background 0.2s;
-	  color: rgb(212,175,55);
+	  color: var(--hover-link-color);
 	}
 }
 
@@ -436,7 +446,7 @@ The .cd-intro change the background image
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url(http://static.tumblr.com/1ccbc9v/D5snc75yq/cd-intro-bg.jpg) center center;
+  background: url(https://static.pexels.com/photos/24529/pexels-photo.jpg) center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -529,8 +539,9 @@ The .cd-intro change the background image
 	color: rgba(2, 23, 37, 0.7);
 }
 .read-more-btn:hover {
-	border: rgb(212,175,55) solid 1px;
-	color: rgb(212,175,55); 
+	border: var(--hover-link-color) solid 1px;
+	color: var(--hover-link-color); 
+    font-weight: bold;
 }
 .cd-container-more-about {
 	width: 100%;
@@ -671,7 +682,7 @@ Work Thumbnails
 	padding: 1em;
 }
 .cd-container-people h4 {
-	color: rgb(212,175,55);
+	color: var(--hover-link-color);
 }
 .cd-container-people p {
 	font-size: 0.9rem;
@@ -723,8 +734,8 @@ Work Thumbnails
 	color: rgba(2, 23, 37, 0.7);
 }
 .read-more-btn-small:hover {
-	border: rgb(212,175,55) solid 1px;
-	color: rgb(212,175,55); 
+	border: var(--hover-link-color) solid 1px;
+	color: var(--hover-link-color); 
 }
 
 .cd-container-blog-read-posts {
@@ -741,8 +752,8 @@ Work Thumbnails
 	color: rgba(2, 23, 37, 0.7);
 }
 .read-more-posts-btn:hover {
-	border: rgb(212,175,55) solid 1px;
-	color: rgb(212,175,55); 
+	border: var(--hover-link-color) solid 1px;
+	color: var(--hover-link-color); 
 }
 .cd-container-contact-clmn-2 {
 	background-color: #f9f9f9;
@@ -839,7 +850,7 @@ About Page Style
 .cd-intro-about {
   position: relative;
   height: 100%;
-  background: url(https://s3-us-west-1.amazonaws.com/photos.snapwi.re/Week+10/SW_CalebMorris1.jpg) no-repeat center center;
+  background: url(http://www.alcoholabusesupport.com/wp-content/uploads/2015/07/sober-communities..jpg) no-repeat center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -1325,8 +1336,8 @@ Blog Post Style
 	text-align: center;
 }
 .read-more-btn-normal:hover {
-	border: rgb(212,175,55) solid 1px;
-	color: rgb(212,175,55); 
+	border: var(--hover-link-color) solid 1px;
+	color: var(--hover-link-color); 
 }
 .cd-container-blog-post-clmn-1 {
 	width: 65%;
@@ -1358,7 +1369,7 @@ Blog Post Style
 .cd-container-blog-post-clmn-1 h4 {
   font-size: .9em;
   text-align: left;
-  color: rgb(212,175,55);
+  color: var(--hover-link-color);
 }
 .cd-container-blog-post-clmn-1 p {
   font-family: 'Cardo', serif;
@@ -1369,7 +1380,7 @@ Blog Post Style
 }
 .cd-container-blog-post-clmn-2 h2 {
   font-size: 1.5rem;
-  border-bottom: rgb(212,175,55) solid 2px; 
+  border-bottom: var(--hover-link-color) solid 2px; 
   padding-bottom: 1rem;
 }
 .cd-container-blog-post-clmn-2 h3 {
@@ -1379,7 +1390,7 @@ Blog Post Style
   color: rgba(2, 23, 37, 0.7);
 }
 .cd-container-blog-post-clmn-2 a:hover {
-  color: rgb(212,175,55);
+  color: var(--hover-link-color);
 }
 .load-more-posts-btn {
 	margin: 0 auto;
@@ -1391,8 +1402,8 @@ Blog Post Style
 	color: rgba(2, 23, 37, 0.7);
 }
 .load-more-posts-btn:hover {
-	border: rgb(212,175,55) solid 1px;
-	color: rgb(212,175,55); 
+	border: var(--hover-link-color) solid 1px;
+	color: var(--hover-link-color); 
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
@@ -1498,7 +1509,7 @@ Contact Page Style
 .square-1 {
 	width: 39.4%;
 	height: 300px;
-	background-color: rgb(212,175,55);
+	background-color: var(--hover-link-color);
 	display: inline-block;
 }
 .square-1 h2 {
@@ -1605,7 +1616,7 @@ Contact Page Style
   width: 32px;
   cursor: pointer;
   margin-left: 10px;
-  background-color: rgb(212,175,55);
+  background-color: var(--hover-link-color);
   background-repeat: no-repeat;
   background-size: 32px 64px;
   background-image: url("http://static.tumblr.com/1ccbc9v/gBOncd6ht/cd-icon-controller.svg");
@@ -1661,7 +1672,7 @@ Footer Style
   float: left;
 }
 .footer-clmn1 a:hover {
-  color: rgb(212,175,55);
+  color: var(--hover-link-color);
 }
 .footer-clmn2 {
   width: 50%;
@@ -1669,7 +1680,7 @@ Footer Style
   text-align: right;
 }
 .footer-clmn2 a:hover {
-  color: rgb(212,175,55);
+  color: var(--hover-link-color);
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
