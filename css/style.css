@@ -177,6 +177,7 @@ html, body {
 }
 .cd-logo img {
   display: block;
+  max-height: 3.5em;
 }
 @media only screen and (min-width: 768px) {
   .cd-logo {
@@ -1206,7 +1207,7 @@ Work Page Style
 .cd-intro-work-page {
   position: relative;
   height: 100%;
-  background: url(http://s30.postimg.org/cow70ngjz/projects_bg_img.gif) center center;
+  background: url(http://s30.postimg.org/w6qugldhr/projects_bg_img.gif) center center;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
