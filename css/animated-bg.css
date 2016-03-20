@@ -2,7 +2,7 @@
 .large-header {
 	position: relative;
 	width: 100%;
-	background-image: url(https://static.pexels.com/photos/24529/pexels-photo.jpg);
+	background-image: url(http://wf.is/wp-content/uploads/2014/03/Anna-Riegels-1.jpg);
 	overflow: hidden;
 	background-size: cover;
 	background-position: center center;
@@ -15,7 +15,7 @@
   width: 90%;
   max-width: 1170px;
   left: 50%;
-  top: 45%;
+  top: 85%;
   bottom: auto;
   right: auto;
   -webkit-transform: translateX(-50%) translateY(-50%);
