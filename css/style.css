@@ -984,11 +984,12 @@ About Page Style
 
 /* -------------------------------- 
 
-Project Page Style
+Events Page Style
 
 -------------------------------- */
 .cd-intro-project {
   position: relative;
+  height: 400px;
   background: url(https://lh3.googleusercontent.com/1nT6NXJR6y1dB9GlE7GBSevYt3YINiGmAJXdaxDgG06WZ46PjfCiaZaNeIC2DM-UVkOcY6lVpEaAn6TnrXn-ib4mENzgE5W73ROtpM25x3ypYj1YHXSt6_aVL6-VNe9IRAEfLFcL3uvFZfj3Be3cd1NXQgYbcl0rcvok2UElzLNt808Ec250iC2kSU_i_iEVr5DP4ci9jQYimDcJBOa2Cr1zvgy19AqHvai9FdHfI-5BhUjJkwBjLiKGNfjqEyE6BNFFCN0i9nSaoTjTnHnZIjLliSp97dVlN2I03Tj0KMRauBQDfmaAfwAgop3hF2FVR9wKMAFZ9PPeVK8bP8KVAgGWmMhg2FszP6_OrZVsHYQWsEVG-yW1aeb0XrQjYe7SxcmqmnpjR9JNY82T-tgay_k0SGJoSKKagu3F5gA1U1Y5Ou5Gfp6o2wz27aZmbiTP-dGNCUFDjPD8Y--psqJcCKoR7Zv3LslF8JJbgBgEvwOeZcIZPf_BexBp_BTfPQO4ljMZF_yb75NjlGqE13Kxpi6Bifd71qNbAeWc2_Bj3qxeWT0Kds8zAOsjHenLRQCGVOSjdw=w1110-h439-no) no-repeat center center;
   background-size: cover;
   z-index: 1;
