@@ -565,7 +565,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0px;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/11/heydays_nora01-1440x900.jpg);
+	background-image: url(../img/pic-menu/social-media.svg);
 	background-size: cover;
 	display: inline-block;
     position: relative;
@@ -583,7 +583,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/07/heydays_berg_23-e1386238978376.jpg);
+	background-image: url(../img/pic-menu/art.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -594,7 +594,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/07/heydays_premiss_10.jpg);
+	background-image: url(../img/pic-menu/blog.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -605,7 +605,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/11/heydays_goa_2b.jpg);
+	background-image: url(../img/pic-menu/tabling.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -616,7 +616,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/12/Postalia.jpg);
+	background-image: url(../img/pic-menu/testify.svg);
 	background-size: cover;
 	display: inline-block;
 }
