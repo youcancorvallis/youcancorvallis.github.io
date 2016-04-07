@@ -627,7 +627,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/11/heydays_mellbye_11-1440x900.jpg);
+	background-image: url(../img/pic-menu/event-coordination.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -638,7 +638,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/11/heydays_sjemmedal_05-1440x900.jpg);
+	background-image: url(../img/pic-menu/liaison.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -649,7 +649,7 @@ Work Thumbnails
 	width: 24.7%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2012/12/heydays_abn2012_071-1440x900.jpg);
+	background-image: url(../img/pic-menu/web-development.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -1082,7 +1082,7 @@ Events Page Style
 	width: 100%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/07/heydays_berg_23-e1386238978376.jpg);
+	background-image: url(https://pixabay.com/static/uploads/photo/2015/04/06/11/08/cloud-709107_960_720.png);
 	background-size: cover;
 	display: inline-block;
 }
@@ -1093,7 +1093,7 @@ Events Page Style
 	width: 100%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/07/heydays_premiss_10.jpg);
+	background-image: url(../img/your.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -1104,7 +1104,7 @@ Events Page Style
 	width: 100%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/11/heydays_goa_2b.jpg);
+	background-image: url(../img/voice.svg);
 	background-size: cover;
 	display: inline-block;
 }
@@ -1115,7 +1115,7 @@ Events Page Style
 	width: 100%;
 	height: 300px;
 	margin: 0;
-	background-image: url(http://heydays.no/wp-content/uploads/2013/12/Postalia.jpg);
+	background-image: url(../img/with-the-world.svg);
 	background-size: cover;
 	display: inline-block;
 }
