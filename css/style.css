@@ -996,6 +996,17 @@ Events Page Style
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+#speakout-intro{
+  position: relative;
+  height: 400px;
+  background: url(https://lh3.googleusercontent.com/3hCG2b-SqOTkDVvFN7SOx63qlrnQuwjvfv2kT2XE08VUBQ0Wy-6BHfOe4JOMK-BA1pikZuPDfto=w1030-h685-no) no-repeat center center;
+  background-size: cover;
+  z-index: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .cd-intro-project h1 {
   position: absolute;
   width: 70%;
@@ -1044,6 +1055,10 @@ Events Page Style
 .cd-container-project-clmn-1 h4 {
   font-size: .9em;
   text-align: left;
+}
+#speakout-info p h4 {
+    font-size: 1em;
+    font-weight: bold;
 }
 .cd-container-project-clmn-1 p {
   font-family: 'Cardo', serif;
