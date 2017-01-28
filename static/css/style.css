@@ -526,6 +526,7 @@ The .cd-intro change the background image
 .cd-container h1 {
 	font-family: 'Open Sans', serif;
 	font-weight: 700;
+	margin-bottom: 20px;
 }
 .cd-container h4 {
 	text-transform: uppercase;
@@ -544,6 +545,26 @@ The .cd-intro change the background image
 	color: var(--hover-link-color); 
     font-weight: bold;
 }
+
+.cd-container-happening-now {
+    margin-top: 20px;
+    margin-bottom: -50px;
+}
+
+.cd-container-happening-now > div {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    min-height: 350px;
+    vertical-align: top;
+}
+
+@media (min-width: 780px) {
+    text-align: center;
+}
+
 .cd-container-more-about {
 	width: 100%;
 	max-width: 1280px;
