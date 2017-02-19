@@ -534,7 +534,7 @@ The .cd-intro change the background image
 	margin-bottom: 1em;
 }
 .read-more-btn {
-	margin: 0 auto;
+	margin: 15px auto;
 	width: 15rem;
 	border: #000 solid 1px;
 	padding: 20px 10px 20px 10px;
