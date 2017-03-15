@@ -13,7 +13,7 @@ Primary style
 }
 
 ::selection {
-    color: white; 
+    color: white;
     background: #DADFE1;
 }
 
@@ -80,7 +80,7 @@ h6 {
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Modules - reusable parts of our design
 
@@ -116,7 +116,7 @@ html, body {
   height: 60px;
   width: 100%;
   z-index: 3;
- 
+
 }
 @media only screen and (min-width: 768px) {
   .cd-header {
@@ -489,7 +489,7 @@ The .cd-intro change the background image
 @media only screen and (min-width: 768px) {
   .cd-intro h1 {
     font-size: 80px;
-   
+
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -542,7 +542,7 @@ The .cd-intro change the background image
 }
 .read-more-btn:hover {
 	border: var(--hover-link-color) solid 1px;
-	color: var(--hover-link-color); 
+	color: var(--hover-link-color);
     font-weight: bold;
 }
 
@@ -764,7 +764,7 @@ Work Thumbnails
 }
 .read-more-btn-small:hover {
 	border: var(--hover-link-color) solid 1px;
-	color: var(--hover-link-color); 
+	color: var(--hover-link-color);
 }
 
 .cd-container-blog-read-posts {
@@ -782,7 +782,7 @@ Work Thumbnails
 }
 .read-more-posts-btn:hover {
 	border: var(--hover-link-color) solid 1px;
-	color: var(--hover-link-color); 
+	color: var(--hover-link-color);
 }
 .cd-container-contact-clmn-2 {
 	background-color: #f9f9f9;
@@ -871,7 +871,7 @@ Work Thumbnails
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 About Page Style
 
@@ -910,7 +910,7 @@ About Page Style
 .about__secondary-content {
 	padding-bottom: 3em;
 	font-size: 18px;
-	
+
 }
 .cd-main-services {
 	width: 100%;
@@ -961,7 +961,7 @@ About Page Style
 	}
 	.cd-main-services {
 		width: 100%;
-		height: auto; 
+		height: auto;
 	}
 	.cd-main-content-services-img img {
 		width: 100%;
@@ -1003,7 +1003,7 @@ About Page Style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Events Page Style
 
@@ -1094,7 +1094,7 @@ Events Page Style
 	margin: 0px;
 	background-image: url(http://heydays.no/wp-content/uploads/2013/11/heydays_nora01-1440x900.jpg);
 	background-size: cover;
-	display: inline-block;	
+	display: inline-block;
 }
 .cd-container-project-clmn-1-img:hover {
 	opacity: .5;
@@ -1242,7 +1242,7 @@ Events Page Style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Work Page Style
 
@@ -1264,7 +1264,7 @@ Work Page Style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Blog Post Style
 
@@ -1381,7 +1381,7 @@ Blog Post Style
 }
 .read-more-btn-normal:hover {
 	border: var(--hover-link-color) solid 1px;
-	color: var(--hover-link-color); 
+	color: var(--hover-link-color);
 }
 .cd-container-blog-post-clmn-1 {
 	width: 65%;
@@ -1424,7 +1424,7 @@ Blog Post Style
 }
 .cd-container-blog-post-clmn-2 h2 {
   font-size: 1.5rem;
-  border-bottom: var(--hover-link-color) solid 2px; 
+  border-bottom: var(--hover-link-color) solid 2px;
   padding-bottom: 1rem;
 }
 .cd-container-blog-post-clmn-2 h3 {
@@ -1447,7 +1447,7 @@ Blog Post Style
 }
 .load-more-posts-btn:hover {
 	border: var(--hover-link-color) solid 1px;
-	color: var(--hover-link-color); 
+	color: var(--hover-link-color);
 }
 
 @media all and (min-width: 320px) and (max-width: 780px) {
@@ -1481,7 +1481,7 @@ Blog Post Style
 	}
 	.cd-container-blog-post-clmn-2 a {
 		width: 100%;
-	}	
+	}
 }
 
 @media only screen and (min-width: 1170px) {
@@ -1492,7 +1492,7 @@ Blog Post Style
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Contact Page Style
 
@@ -1701,7 +1701,7 @@ Contact Page Style
 
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Footer Style
 
@@ -1745,11 +1745,11 @@ Footer Style
 		width: 100%;
 		text-align: left;
 		margin-top: 1rem;
-	}	
+	}
 }
 
 
-/* -------------------------------- 
+/* --------------------------------
 
 Social Share Style
 
@@ -1780,7 +1780,7 @@ Social Share Style
 	text-transform: uppercase;
 	text-align: center;
 	background-color: white;
-	
+
     -webkit-transition-property: background;
        -moz-transition-property: background;
          -o-transition-property: background;
@@ -1808,7 +1808,7 @@ Social Share Style
 	text-transform: uppercase;
 	text-align: center;
 	background-color: white;
-	
+
     -webkit-transition-property: background;
        -moz-transition-property: background;
          -o-transition-property: background;
@@ -1820,7 +1820,7 @@ Social Share Style
     -webkit-transition-timing-function: linear;
        -moz-transition-timing-function: linear;
          -o-transition-timing-function: linear;
-            transition-timing-function: linear;	
+            transition-timing-function: linear;
 }
 .twitter-share:hover {
 	background-color: #55acee;
@@ -1836,7 +1836,7 @@ Social Share Style
 	text-transform: uppercase;
 	text-align: center;
 	background-color: white;
-	
+
     -webkit-transition-property: background;
        -moz-transition-property: background;
          -o-transition-property: background;
@@ -1848,7 +1848,7 @@ Social Share Style
     -webkit-transition-timing-function: linear;
        -moz-transition-timing-function: linear;
          -o-transition-timing-function: linear;
-            transition-timing-function: linear;	
+            transition-timing-function: linear;
 }
 .google-share:hover {
 	background-color: #dd4b39;
@@ -1859,5 +1859,5 @@ Social Share Style
 @media all and (min-width: 320px) and (max-width: 780px) {
 	.share-project {
 		display: none;
-	}	
+	}
 }
